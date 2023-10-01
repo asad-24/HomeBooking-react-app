@@ -23,6 +23,7 @@
     .responsive-container {
       width: 80%;
       font-size: 10px; 
+      overflow-x: scroll;
     }
   }
   
