@@ -1,0 +1,28 @@
+
+@media screen and(max-991px){
+.calander{
+  width: 100%;
+}
+}
+.custom-input {
+    border-radius: 15px;
+    border: 1px #3A9AFC solid;
+    padding: 2px 8px;
+    background-color: white;
+    height: 16px;
+    box-shadow: 0 0 2px #3A9AFC;
+  }
+  
+  .custom-input:focus {
+    outline: none;
+    border: 1px solid #3A9AFC;
+    box-shadow: 0 0 10px 2px #3A9AFC;
+  }
+
+@media (max-width: 768px) {
+    .responsive-container {
+      width: 80%;
+      font-size: 10px; 
+    }
+  }
+  

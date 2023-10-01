@@ -1,0 +1,16 @@
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .img-lg{
+      
+      width: 100%;
+      border-radius: 10px;
+  }
+  .img-sm{
+     
+     width: 100%; 
+     border-radius: 10px;
+     
+  }

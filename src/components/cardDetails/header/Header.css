@@ -1,0 +1,23 @@
+.roomDetail p{
+    display: block; /* By default, roomDetail is displayed */
+  }
+  
+  /* Media query to hide roomDetail when screen width is 1002px or less */
+  @media (max-width: 991px) {
+    .roomDetail p{
+      display: none; 
+    
+    }
+    .header-btn{
+        margin-top: 4px;
+       }
+  }
+.header-btn{
+    padding: 1px;
+    border-radius: 20px;
+}
+.roomDetail p{
+    
+  color: black;
+  font-size: 13px;
+  }

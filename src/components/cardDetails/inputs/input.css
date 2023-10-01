@@ -1,0 +1,55 @@
+.n0OfAdult{
+    
+    height: 40px;
+    width: 85px;
+    border-radius: 20px;
+
+    
+}
+.checkBoxes{
+    height: 30px;
+    width: 30px;
+    border-radius: 6px;
+    border: 3px solid black;
+    
+}
+.main-box{
+    display: flex;
+
+    align-items: center;
+    width: 75%;
+
+}
+.person-text{
+    margin-right: 36px;
+    width: 80px;
+    height: 40px;
+    display: flex;
+   
+    align-items: center;
+}
+.child-box{
+    position: relative;
+   
+     width: 80px;
+    height: 40px;
+
+    margin-right: 36px;
+}
+
+.child-text{
+    position: absolute;
+   
+}
+.child-year{
+    position: absolute;
+    top: 17px;
+
+}
+
+.check-font{
+    font-size: 15px;
+}
+.booking-btn{
+border-radius: 20px;
+}
