@@ -1,3 +1,46 @@
 .calander_container{
     background-color: rgb(238, 238, 238);
+   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}
+.calander{
+    width: 50%;
+}
+.inputBox{
+    width: 50%;
+}
+.progress-container{
+   
+   width: 100%;
+   overflow: hidden;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.ProgressT{
+width: 50%;
+}
+.Reviewe{
+    width: 50%;
+}
+@media (max-width:768px) {
+    .ProgressT{
+        width: 100%;
+        }
+        .Reviewe{
+            width: 100%;
+        }
+     
+}
+@media (max-width:991px) {
+    
+        .calander{
+            width: 100%;
+        }
+        .inputBox{
+            width: 100%;
+        }
 }

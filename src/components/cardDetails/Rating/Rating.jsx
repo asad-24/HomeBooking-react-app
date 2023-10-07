@@ -1,9 +1,9 @@
-import React from 'react'
+
 import "./rating.css"
 function Rating() {
   return (
     <div>
-       <div className="container-fluid p-3">
+       <div className="container-fluid mt-4">
         <div className="row">
           <div className="col-md-6 info-box ">
             <h1 className="info-box-heading">3 Bauhinia Cres</h1>

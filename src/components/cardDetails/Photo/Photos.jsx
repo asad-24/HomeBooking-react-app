@@ -8,7 +8,7 @@ import "./photo.css"
 function Photos() {
   return (
     <div>
-      <div className="container-fluid p-3 ">
+      <div className="container-fluid ">
         {/* main row */}
         <div className="row main-row">
           <div className="col-lg-6 col-md-6  col-sm-12">

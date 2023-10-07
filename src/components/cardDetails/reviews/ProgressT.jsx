@@ -27,14 +27,14 @@ const Ratings = () => {
 
   return (
     <>
-      <div className="container mt-4">
+      <div className="container-fluid mt-4 "  >
         <h1 className="text-primary text-lg fw-bold">Reviews</h1>
         <h1 className="text-muted mb-4 mt-1">
           {averageRating.toFixed(1)}/5
         </h1>
         {arr.map((item, index) => (
-          <div key={index} className="mb-4 progressBar">
-            <div className="d-flex justify-content-between">
+          <div key={index} className="mb-4 progressBar w-75">
+            <div className="d-flex justify-content-between ">
               <h5 className="text-muted">{item.label}</h5>
               <p className="text-muted">{(item.percentage / 10).toFixed(1)}/10</p>
             </div>

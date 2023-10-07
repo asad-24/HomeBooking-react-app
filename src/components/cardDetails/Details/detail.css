@@ -29,11 +29,12 @@
   }
   .mainContainer{
     position: relative;
+   
   }
   .line-{
     position: absolute;
     height: 2px;
-    width: 99%;
+    width: 95%;
     
     background-color: rgb(254, 228, 228);
     top: 35px;

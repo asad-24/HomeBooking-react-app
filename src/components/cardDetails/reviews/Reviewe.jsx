@@ -16,11 +16,12 @@ function Reviewe() {
               back!
             </p>
           </div>
-          <div className="d-flex pt-3 justify-content-md-end align-items-center gap-2 ">
+          <div className="d-flex pt-3 justify-content-end align-items-center gap-2 ">
             <div>
               <h5 className="fs-base">Excellent</h5>
             </div>
             <div>
+              
               <button className=" border-2 py-1 w-12 border-dark text-sm  review-rate">
                 5
               </button>

@@ -21,9 +21,13 @@
 
 @media (max-width: 768px) {
     .responsive-container {
-      width: 80%;
+      width: 75%;
       font-size: 10px; 
       overflow-x: scroll;
     }
+    .responsive-container::-webkit-scrollbar{
+      width: 0;
+  }
+
   }
   

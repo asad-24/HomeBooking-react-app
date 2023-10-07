@@ -1,4 +1,3 @@
-
 import Photos from "./Photo/Photos";
 import Rating from "./Rating/Rating";
 import Details from "./Details/Details";
@@ -11,38 +10,30 @@ import Footer from "./footer/Footer";
 import Header from "./header/Header";
 function CardDetail() {
   return (
-   
-   <div className="container-fluid" >
-    <Header/>
-    <Photos/>
-    <Rating/>
-    <Details/>
-    <div className="row my-5 calander_container">
-      <div className="col-lg-6">
-      <Calendar/>
- 
+    <div className="" >
+      <Header />
+      <Photos />
+      <Rating />
+      <Details />
+      <div className="my-5 calander_container px-3">
+        <div className="calander  ">
+          <Calendar />
+        </div>
+        <div className="inputBox">
+          <InputBox />
+        </div>
       </div>
-      <div className="col-lg-6">
-          <InputBox/>
+      <div className= "my-5 progress-container px-3">
+        <div className=" ProgressT ">
+          <ProgressT />
+        </div>
+        <div className=" Reviewe">
+          <Reviewe />
+        </div>
       </div>
-    </div>
-    <div className="row my-5 p-3">
-      <div className="col-lg-5">
-      <ProgressT/>
- 
-      </div>
-      <div className="col-lg-7">
-        <Reviewe/>
-      </div>
-    </div>
 
-    <Footer/>
-
- 
-   </div>
-     
-    
-  
+      <Footer />
+    </div>
   );
 }
 
